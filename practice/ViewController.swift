@@ -30,7 +30,6 @@ class ViewController: UIViewController {
        
     }
     
-
     @IBAction func tapAddBtn(_ sender: UIBarButtonItem) {
         
         let VC = storyboard!.instantiateViewController(identifier: "secondViewController") as! secondViewController
